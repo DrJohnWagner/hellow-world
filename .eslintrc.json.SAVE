@@ -1,0 +1,15 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"commonjs": true
+	  },
+	"root": true,
+	"parser": "babel-eslint",
+	"plugins": ["react", "import", "flowtype", "flowtype-errors", "prettier"],
+	"settings": {
+		"import/resolver": {
+			"babel-module": {}
+		}
+	}
+}

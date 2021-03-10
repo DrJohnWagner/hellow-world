@@ -1,0 +1,20 @@
+# build dir
+dist
+
+# npm
+node_modules
+.npm
+npm-debug.log
+
+# flow
+flow-typed/npm
+
+# reason
+lib/bs
+.merlin
+
+# misc
+**/*.emotion.css
+.esm-cache
+.DS_Store
+.idea

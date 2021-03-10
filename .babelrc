@@ -1,0 +1,28 @@
+{
+	"presets": [
+	  [
+		"@babel/preset-env",
+		{
+		  "targets": {
+			"node": "10"
+		  }
+		}
+	  ],
+	  "@babel/preset-react",
+	  "@babel/preset-flow"
+	],
+	"plugins": [
+	  "react-hot-loader/babel",
+	  "emotion",
+	  "transform-class-properties",
+	  [
+		"module-resolver",
+		{
+		  "alias": {
+			"~": "./src",
+			"~assets": "./public/assets"
+		  }
+		}
+	  ]
+	]
+  }
